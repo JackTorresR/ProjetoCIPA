@@ -1,0 +1,54 @@
+Erros!!!
+Procurar porque o botao votar está sempre votando no último que foi votado, 
+mesmo que o número pressionado seja errado (OK)
+--------------------------------------------------------------------------------
+Colocar os candidatos na tabela(OK)
+--------------------------------------------------------------------------------
+Remodelar para selecionar os candidatos na visualização para jcombobox (OK)
+--------------------------------------------------------------------------------
+Verificar na hora do cadastro se o número de eleição é válido (OK)
+verificar na hora do cadastro se o cod_candidato a ser cadastrado existe igual 
+com o mesmo num_eleicao(OK)
+--------------------------------------------------------------------------------
+Fazer a continuação das eleições
+--------------------------------------------------------------------------------
+Erro Resultado pdf (OK)
+--------------------------------------------------------------------------------
+Adicionar botão de alterar frases padrões (OK)
+--------------------------------------------------------------------------------
+Arrumar os campos de texto na eleicao (ok)
+--------------------------------------------------------------------------------
+Arrumar a seleção de botões da urna (OK)
+--------------------------------------------------------------------------------
+Arrumar a seleção de botões do resultado (OK)
+--------------------------------------------------------------------------------
+Arrumar para apertar ctrl+s de botões do Eleicao (OK)
+--------------------------------------------------------------------------------
+Arrumar a seleção na eleição (OK)
+--------------------------------------------------------------------------------
+Arrumar os request focus de algumas telas (OK)
+--------------------------------------------------------------------------------
+Mudar o icone de alterar (OK)
+--------------------------------------------------------------------------------
+Colocar para mudar a imagem ao clicar na label (OK)
+--------------------------------------------------------------------------------
+Criar a tela explicando como utilizar a eleição (OK)
+--------------------------------------------------------------------------------
+Criar a tela explicando como utilizar a tela candidatos (OK)
+--------------------------------------------------------------------------------
+Criar a tela explicando como utilizar a tela resultado (OK)
+--------------------------------------------------------------------------------
+Criar a tela explicando como utilizar a tela config (OK)
+--------------------------------------------------------------------------------
+Arruma argumentos da listagem do gerarPDF (OK)
+--------------------------------------------------------------------------------
+
+
+        //Data
+        Date dataSistema = new Date();
+        SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+        jlData.setText(formato.format(dataSistema));
+
+        //hora
+        Timer timer = new Timer(1000, new hora());
+        timer.start();
